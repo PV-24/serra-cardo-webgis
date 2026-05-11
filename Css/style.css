@@ -1,0 +1,175 @@
+body {
+    background-color: #f5f7f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-cardo {
+    min-height: 75vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("https://www.benifallet.cat/sites/benifallet/files/recursos/serra_de_cardo-15.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border-radius: 16px;
+}
+
+.card h2,
+.card h3 {
+    color: #2f5d3a;
+}
+
+.ruta-card {
+    border-left: 6px solid #198754;
+}
+
+.galeria-img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.mapa-box {
+    width: 100%;
+    height: 650px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.mapa-box iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+footer a {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-cardo {
+        min-height: 55vh;
+    }
+
+    .hero-cardo h1 {
+        font-size: 2.2rem;
+    }
+
+    .mapa-box {
+        height: 480px;
+    }
+}
+.logo-navbar{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+}
+.logo-navbar {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.mapa-container {
+    width: 100%;
+    max-width: 1150px;
+    height: 680px;
+    margin: 0 auto 40px auto;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.mapa-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 1.35rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .mapa-container {
+        height: 520px;
+    }
+
+    .logo-navbar {
+        width: 40px;
+        height: 40px;
+    }
+}
+.hero-rutes {
+    min-height: 45vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+        url("../imatges/picosses.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.ruta-card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ruta-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+.ruta-card img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.ruta-card h3 {
+    color: #146c43;
+    font-weight: 700;
+}
+.hero-serveis {
+    min-height: 45vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("../imatges/benifallet.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.servei-card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.servei-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+.servei-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.servei-card h3 {
+    color: #146c43;
+    font-weight: 700;
+}
+
+.servei-lista {
+    padding-left: 18px;
+    margin-bottom: 0;
+}
