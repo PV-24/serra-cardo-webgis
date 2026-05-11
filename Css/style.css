@@ -3,6 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HERO INICI */
 .hero-cardo {
     min-height: 75vh;
     background:
@@ -12,6 +13,21 @@ body {
     background-position: center;
 }
 
+/* LOGO NAVBAR */
+.logo-navbar {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.navbar-brand {
+    font-size: 1.35rem;
+}
+
+/* TARGETES GENERALS */
 .card {
     border-radius: 16px;
 }
@@ -21,15 +37,7 @@ body {
     color: #2f5d3a;
 }
 
-.ruta-card {
-    border-left: 6px solid #198754;
-}
-
-.galeria-img {
-    height: 240px;
-    object-fit: cover;
-}
-
+/* MAPA */
 .mapa-box {
     width: 100%;
     height: 650px;
@@ -43,35 +51,6 @@ body {
     height: 100%;
     border: none;
 }
-
-footer a {
-    color: white;
-}
-
-@media only screen and (max-width: 768px) {
-    .hero-cardo {
-        min-height: 55vh;
-    }
-
-    .hero-cardo h1 {
-        font-size: 2.2rem;
-    }
-
-    .mapa-box {
-        height: 480px;
-    }
-.logo-navbar {
-    width: 48px;
-    height: 48px;
-    object-fit: cover;
-    border-radius: 50%;
-    background-color: white;
-    border: 2px solid white; 
-}
-    .navbar-brand {
-    font-size: 1.35rem;
-}
-
 
 .mapa-container {
     width: 100%;
@@ -89,25 +68,18 @@ footer a {
     border: none;
 }
 
-.navbar-brand {
-    font-size: 1.35rem;
+/* GALERIA */
+.galeria-img {
+    height: 240px;
+    object-fit: cover;
 }
 
-@media only screen and (max-width: 768px) {
-    .mapa-container {
-        height: 520px;
-    }
-
-    .logo-navbar {
-        width: 40px;
-        height: 40px;
-    }
-}
+/* RUTES */
 .hero-rutes {
     min-height: 45vh;
     background:
         linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
-        url("../imatges/picosses.png");
+        url("../webimatges/picosses.png");
     background-size: cover;
     background-position: center;
 }
@@ -133,11 +105,13 @@ footer a {
     color: #146c43;
     font-weight: 700;
 }
+
+/* SERVEIS */
 .hero-serveis {
     min-height: 45vh;
     background:
         linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url("../imatges/benifallet.png");
+        url("../webimatges/benifallet.png");
     background-size: cover;
     background-position: center;
 }
@@ -167,4 +141,33 @@ footer a {
 .servei-lista {
     padding-left: 18px;
     margin-bottom: 0;
+}
+
+/* FOOTER */
+footer a {
+    color: white;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    .hero-cardo {
+        min-height: 55vh;
+    }
+
+    .hero-cardo h1 {
+        font-size: 2.2rem;
+    }
+
+    .mapa-box {
+        height: 480px;
+    }
+
+    .mapa-container {
+        height: 520px;
+    }
+
+    .logo-navbar {
+        width: 40px;
+        height: 40px;
+    }
 }
