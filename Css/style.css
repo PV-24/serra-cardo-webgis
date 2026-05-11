@@ -60,23 +60,18 @@ footer a {
     .mapa-box {
         height: 480px;
     }
-}
-.logo-navbar{
-    width: 55px;
-    height: 55px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid white;
-    background-color: white;
-}
 .logo-navbar {
     width: 48px;
     height: 48px;
     object-fit: cover;
     border-radius: 50%;
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid white; 
 }
+    .navbar-brand {
+    font-size: 1.35rem;
+}
+
 
 .mapa-container {
     width: 100%;
