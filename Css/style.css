@@ -171,13 +171,26 @@ footer a {
         height: 40px;
     }
 }
-/* Ajustos pàgina inici */
-.seccio-destacats {
-    max-width: 1150px;
+/* AJUSTOS PÀGINA INICI */
+
+.logo-navbar,
+.navbar-brand img {
+    width: 48px !important;
+    height: 48px !important;
+    max-width: 48px !important;
+    max-height: 48px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.navbar-brand {
+    font-size: 1.35rem;
 }
 
 .inici-card {
-    min-height: 135px;
+    min-height: 145px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,17 +201,24 @@ footer a {
     font-weight: 700;
 }
 
-.seccio-presentacio {
-    max-width: 1150px;
-}
-
-.seccio-presentacio h2 {
-    color: #1f4f35;
-    font-weight: 700;
-}
-
 .imatge-inici {
     width: 100%;
-    height: 300px;
+    height: 320px;
     object-fit: cover;
+}
+
+.crida-final {
+    max-width: 950px;
+    margin: 0 auto;
+    border-radius: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .imatge-inici {
+        height: 240px;
+    }
+
+    .hero-cardo h1 {
+        font-size: 2.3rem;
+    }
 }
