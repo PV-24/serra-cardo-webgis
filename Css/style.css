@@ -171,3 +171,34 @@ footer a {
         height: 40px;
     }
 }
+/* Ajustos pàgina inici */
+.seccio-destacats {
+    max-width: 1150px;
+}
+
+.inici-card {
+    min-height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inici-card h3 {
+    color: #146c43;
+    font-weight: 700;
+}
+
+.seccio-presentacio {
+    max-width: 1150px;
+}
+
+.seccio-presentacio h2 {
+    color: #1f4f35;
+    font-weight: 700;
+}
+
+.imatge-inici {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
